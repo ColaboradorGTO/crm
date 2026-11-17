@@ -1,0 +1,14 @@
+{
+  "name": "gto-sabado-premiado-testes",
+  "private": true,
+  "type": "module",
+  "description": "Testes de carga, queda e ponta a ponta do Sábado Premiado. Rodar só em ambiente de homologação.",
+  "scripts": {
+    "carga": "node carga.mjs 3000",
+    "carga-alta": "node carga2.mjs 25000",
+    "soak": "node soak.mjs 180 150",
+    "e2e": "node e2e.mjs",
+    "demo": "node demo.mjs"
+  },
+  "dependencies": { "jsdom": "24.1.3", "pg": "8.13.1" }
+}

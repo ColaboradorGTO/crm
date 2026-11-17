@@ -1,0 +1,10 @@
+# SOMENTE HOMOLOGAÇÃO. Abre o banco e a API apenas para o próprio servidor (127.0.0.1), para os testes da pasta testes/ rodarem.
+# Uso:  docker compose -f docker-compose.yml -f docker-compose.homologacao.yml up -d
+# Nunca use este arquivo no servidor de produção.
+services:
+  db:
+    ports:
+      - "127.0.0.1:5432:5432"
+  api:
+    ports:
+      - "127.0.0.1:3000:3000"
