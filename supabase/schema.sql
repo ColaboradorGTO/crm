@@ -12,7 +12,7 @@ do $$ begin
 exception when others then
   raise notice 'Não foi possível fixar o fuso do banco (%). Confira se o servidor usa America/Sao_Paulo.', sqlerrm;
 end $$;
-
+ 
 -- ---------- tabelas ----------
 create table if not exists sabados (
   id serial primary key,

@@ -5,7 +5,7 @@ window.CONFIG = {
   API_URL: "",                 // vazio no Supabase (com valor, o site tenta o /api do nginx)
   SUPABASE_URL: "https://kzyjboolmfjndrwzoteu.supabase.co",
   SUPABASE_ANON: "sb_publishable_GDqXpCTjRxcAWR7PGPdj5w_4KV36DGM",
-  BASE_URL: "",
+  BASE_URL: "https://crm-publicar-seven.vercel.app/",
   CAMPANHA: "Sábado Premiado",
   REGRAS: "Vale só no sábado e só na loja indicada. Cada cupom vale uma vez, para o CPF cadastrado. Válido mediante compra.",
   LGPD: "Autorizo a {MARCA} a usar meus dados (nome, CPF e WhatsApp) para esta ação e para me enviar ofertas. Posso pedir a exclusão a qualquer momento.",
